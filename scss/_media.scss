@@ -1,0 +1,226 @@
+@media(max-width: 1440px) {
+	.main {
+		background-position: 350px 0px;
+	}
+	.covid-img {
+		width: 810px;
+	}
+	.covid-image {
+		left: -200px;
+	}
+	.contagion-cards {
+		justify-content: center;
+	}
+
+	.symptomps-main {
+		/* .symptomps-main__image */
+		&__image {
+			position: absolute;
+			right: 28%;
+			/* .symptomps-main__image--1 */
+			&--1 {
+				position: absolute;
+				right: 100px;
+				top: 225px;
+			}
+			/* .symptomps-main__image--2 */
+			&--2 {
+				position: absolute;
+				left: 110px;
+				top: 30px;
+			}
+			/* .symptomps-main__image--3 */
+			&--3 {
+				top: 425px;
+				left: 110px;
+				position: absolute;
+			}
+			/* .symptomps-main__image--4 */
+			&--4 {
+				top: 260px;
+				left: 90px;
+				position: absolute;
+			}
+			/* .symptomps-main__image--5 */
+			&--5 {
+				right: 150px;
+				top: 470px;
+				position: absolute;
+			}
+			/* .symptomps-main__image--6 */
+			&--6 {
+				right: 120px;
+				position: absolute;
+			}
+		}
+	}
+}
+@media (max-width: 1360px) {
+	.symptomps-main__image,
+	.symptomps-main__image--1,
+	.symptomps-main__image--2,
+	.symptomps-main__image--3,
+	.symptomps-main__image--4,
+	.symptomps-main__image--5,
+	.symptomps-main__image--6{
+		display: none;
+	}
+}
+
+@media (max-width: 1160px) {
+	.shoulddo-item {
+		flex-wrap: wrap;
+	}
+	.question-title {
+    font-size: 34px;
+    line-height: 37px;
+    padding-bottom: 42px;
+	}
+	.question-form {
+		max-width: 590px;
+		padding: 16px;
+	}
+	.covid-img {
+		display: none;
+	}
+	.main {
+		background-position: 150px 0px;
+	}
+	.covid-text {
+		padding-top: 100px;
+		margin: 0 auto;
+		text-align: center;
+		max-width: 550px;
+	}
+	.covid-button {
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 880px) {
+	.main {
+		background-position: center center;
+	}
+	.header-menu,
+	.footer-menu__nav {
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.footer-links, .footer-menu {
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
+	.header-menu__list,
+	.footer-menu__list {
+		margin-top: 15px;
+		margin-right: 20px;
+	}
+	.title {
+		font-size: 35px;
+    line-height: 60px;
+	}
+	.descr {
+		font-size: 22px;
+    line-height: 34px;
+	}
+	.main-text {
+		max-width: 480px;
+	}
+	.main-descr {
+		padding-bottom: 20px;
+	}
+}
+
+@media (max-width: 600px) {
+	.footer-menu__nav {
+		padding-bottom: 30px;
+	}
+	.question-form {
+		flex-wrap: wrap;
+		max-width: 320px;
+	}
+	.question-form__submit,
+	.question-form__email {
+		margin: 0 auto;
+	}
+	.question-form__submit {
+		width: 192px;
+    height: 53px;
+	}
+	.shoulddo-item__image {
+		width: 250px;
+	}
+	.shoulddo-item__card-descr {
+    font-size: 15px;
+    line-height: 30px;
+    color: #4b4f51;
+	}
+	.shoulddo-item__card-numb {
+		font-size: 25px;
+    line-height: 50px;
+	}
+	.shoulddo-item__card-title  {
+		font-size: 35px;
+    line-height: 50px;
+	}
+	.contagion-card .contagion-card__descr {
+		font-size: 15px;
+	}
+	.covid-text .covid-descr {
+		font-size: 15px;
+	}
+	.covid-suptitle {
+    font-size: 25px;
+	}
+	.covid-title {
+		padding-bottom: 20px;
+	}
+	.covid-text {
+		max-width: 430px;
+	}
+	.main-inner {
+		padding-top: 70px;
+		padding-bottom: 150px;
+	}
+	.header__inner {
+		height: auto;
+		flex-direction: column;
+	}
+	.header-right {
+		flex-direction: column;
+	}
+	.header-nav {
+		padding-top: 20px;
+		margin-bottom: 20px;
+	}
+	.title {
+    font-size: 25px;
+    line-height: 30px;
+	}
+	.descr {
+		font-size: 19px;
+    line-height: 23px;
+	}
+}
+
+@media (max-width: 430px) {
+	.footer-rights {
+		font-size: 18px;
+	}
+	.question-form__email {
+    width: 200px;
+	}
+	.contagion-card:nth-child(1) {
+		padding: 25px 5px 38px;
+	}
+	.contagion-card:nth-child(2) {
+		padding: 22px 5px 38px;
+	}
+	.contagion-card:nth-child(3) {
+		padding: 22px 5px 38px;
+	}
+	.shoulddo-item__image {
+		width: 150px;
+	}
+}
